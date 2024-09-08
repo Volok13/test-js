@@ -12,11 +12,13 @@ let postsContainer = document.getElementById('posts-container');
             let singleDetailsDiv = document.createElement('div');
             singleDetailsDiv.innerHTML = `
             <h2>${user.name}</h2>
+            <p>ID: ${user.id}</p>
+            <p>Username: ${user.username}</p>
             <p>Email: ${user.email}</p>
+            <p>Address: ${user.address.street}, ${user.address.city}, ${user.address.zipcode} ${user.address.geo.lat}, ${user.address.geo.lng}</p>
             <p>Phone: ${user.phone}</p>
             <p>Website: ${user.website}</p>
-            <p>Company: ${user.company.name}</p>
-            <p>Address: ${user.address.street}, ${user.address.city}</p>
+            <p>Company: ${user.company.name}, ${user.company.catchPhrase}, ${user.company.bs}</p>
         `;
             detailsContainer.appendChild(singleDetailsDiv);
         })

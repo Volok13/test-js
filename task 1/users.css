@@ -94,3 +94,41 @@ main{
     font-family: "Inter", sans-serif;
     font-weight: 500;
 }
+/*---------------------------------------*/
+.post-details{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 50px auto auto 40px;
+    gap: 10px;
+}
+.post-details h1, h4{
+    font-family: "Inter", sans-serif;
+}
+#post-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Inter", sans-serif;
+    gap: 15px;
+    background: #e4e4e4;
+    border: 1px solid #535252;
+    padding: 10px;
+    margin-right: 40px;
+}
+#comments-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 10px;
+    background: #e4e4e4;
+    border: 1px solid #535252;
+    font-family: "Inter", sans-serif;
+    margin-right: 40px;
+
+}
+#comments-container div{
+    background-color: rgb(245, 246, 246);
+    border: 1px solid #9e9d9d;
+    padding: 10px;
+}
