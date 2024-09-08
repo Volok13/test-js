@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b5a9b310-eabd-4f52-a1f2-0f99f229a875" name="Changes" comment="task 1">
-      <change beforePath="$PROJECT_DIR$/task 1/task 1.css" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/task-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task 1/task 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/task-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task 1/task 1.js" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/task-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 1/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 1/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 1/users-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task 1/users.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task 1/task-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task 1/task-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task 1/task-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/task 1/post-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,24 +22,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Volok13/test-js.git",
-    "accountId": "a3435c65-189e-4782-8d3a-496a7e57301e"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Volok13&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Volok13/test-js.git&quot;,
+    &quot;accountId&quot;: &quot;a3435c65-189e-4782-8d3a-496a7e57301e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2lbNrkhu1JfnuETR2ibgFZebb66" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725445018210</updated>
-      <workItem from="1725445020528" duration="325000" />
+      <workItem from="1725445020528" duration="1698000" />
+      <workItem from="1725796174864" duration="16728000" />
     </task>
     <task id="LOCAL-00001" summary="task 1">
       <option name="closed" value="true" />
@@ -81,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725445233645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task 1">
+      <option name="closed" value="true" />
+      <created>1725445352433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725445352433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task 1">
+      <option name="closed" value="true" />
+      <created>1725445915397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725445915398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
