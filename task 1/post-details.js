@@ -26,6 +26,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
     for(comment of comments) {
         let commentContainerDiv = document.createElement('div');
         commentContainerDiv.innerHTML = `
+        <p>ID: ${comment.id}</p>
         <h4>${comment.name}</h4>
         <p>Email: ${comment.email}</p>
         <p>${comment.body}</p>
